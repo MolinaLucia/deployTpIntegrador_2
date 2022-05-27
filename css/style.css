@@ -1,0 +1,188 @@
+.letraConf{font-weight: bold;
+    color: white;
+    font-size: 30;
+}
+
+
+.todaLaImagen{
+    background-image: url(../img/ba1.jpg);
+    background-image: center;
+    background-image: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+}
+
+.centrar{
+    margin-top: 10px;
+    text-align: center;
+}
+
+.btn-warning{
+    color: black;
+    font-weight: bold;
+    padding: 0.4px;
+}
+
+.btn-info{
+    color: white;
+    font-weight: bold;
+    padding: 0.4px;
+}
+
+.btn-secondary{
+    color: white;
+    font-weight: bold;
+    padding: 0.4px;
+}
+
+.btn-danger{
+    color: white;
+    font-weight: bold;
+    padding: 0.4px;
+}
+
+.derecha{
+    background-image: url(../img/honolulu.jpg);
+    background-size: cover;
+    height:100vh;
+}
+
+.izquierda{
+    background-color: rgb(66, 66, 66);
+    color: white;
+}
+
+.tituloBSAS{
+    font-weight: bold;
+    margin-top: 25px;
+}
+
+.btn-outline-secondary{
+    color: white;
+    border-color: aliceblue;
+}
+
+.orador{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.anotate{
+    text-align: center;
+}
+
+.anotate a{
+    color: black;
+}
+
+/* .formulario{                        
+    margin-left: 300px;
+    margin-right: 300px;
+} */
+                                       /*EN VEZ DE ESTO...*/
+.formulario {                         /*..ESTO: ESTO ME ACOMODA EN EL CENTRO EL FORMULARIO. SE VE BIEN EN CEL*/
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+}
+
+.recuerda{
+    font-size: 12px;
+}
+
+.btn-primary{
+    background-color: rgb(39, 182, 39);
+    border-bottom-color: rgb(39, 182, 39);
+    font-size: 20px;
+    padding: 1px;
+}
+
+/*.navegadorInferior{
+    background-color: rgb(45, 45, 87);
+    margin-left:10px; 
+    padding: 15px;
+}    */                                       /*En vez de esto...*/
+
+ /*..Esto: Centra el texto del navegador sin necesidad de margin*/
+ /* NO SIRVE PARA PANTALLAS GRANDES */
+.navegadorInferior{                         
+    background-color: rgb(45, 45, 87);
+    padding: 15px;
+    text-align: center;    
+} 
+
+.justify-content-center a{
+    color: aliceblue;
+    margin-left: 25px;
+    font-size: 15px;
+}
+
+
+.carousel-caption{        /*para mover el texto del slide al centro a la derecha*/       
+    position: absolute;
+    right: 15%;                         
+    top: 225px;             /*Con esto a 25%*/
+    left: 50%;              /*Con esto*/
+    z-index: 10;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    text-align: right;     /*Y con esto solo.. tambien funciona PERO sigue sin verse en el celular*/
+} 
+
+.carousel-caption p{
+    font-size: 15px;
+}
+
+.carousel-item img{             /*opacidad a la imagen*/
+    filter:brightness(0.6);
+}
+
+#ti a{           /*Letra comprar Tickets del navegador en verde*/
+  color: green;
+}
+
+.venta{
+    margin-top: 20px;    
+    text-align: center;
+    
+}
+
+.formularioTicket{    /*Formulario de ventas*/
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+}
+
+#result{                           /*donde figura el monto de la venta segun tipo*/
+    padding: 15px;
+    background-color:rgb(136, 208, 218);
+}
+
+#cambiarPlace ::placeholder{    
+    color:blue
+}
+
+#cambiarPlace{    
+    margin-top: 5%;
+}
+
+
+#but{                         /*..ESTO: ESTO ME ACOMODA EN EL CENTRO EL FORMULARIO. SE VE BIEN EN CEL*/
+    display: flex;
+    justify-content: center;    
+  }
+  
+#butBorrar{
+    width: 24.5%;
+    background-color: rgb(49, 190, 49);
+    border-bottom-color: rgb(49, 190, 49);
+    padding: 5px;
+}
+
+#butResumen{
+    width: 24.5%;
+    background-color: rgb(49, 190, 49);
+    border-bottom-color: rgb(49, 190, 49);
+    padding: 5px;
+}
